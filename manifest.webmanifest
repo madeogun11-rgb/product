@@ -1,0 +1,12 @@
+{
+  "id": "./",
+  "name": "Morrow Market",
+  "short_name": "Morrow",
+  "description": "Thoughtful goods for everyday living.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#f7f5ef",
+  "icons": [{"src":"./assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

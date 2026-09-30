@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202722">
+  <meta name="description" content="Morrow Market store administration.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Store Admin · Morrow Market</title>
+</head>
+<body data-entry="admin" class="admin-entry">
+  <header class="admin-entry-header">
+    <a class="brand" href="index.html"><span class="brand-mark">m</span><span>MORROW<small>MARKET · STUDIO</small></span></a>
+    <div class="admin-entry-status"><span class="live-dot"></span> Local store data <span class="admin-entry-separator">·</span> Same browser</div>
+    <a class="admin-store-link" href="index.html" target="_blank" rel="noopener">← View storefront</a>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <span id="cart-count" hidden>0</span><span id="wishlist-count" hidden>0</span>
+  <button id="install-button" hidden aria-label="Install app">Install</button>
+  <div id="toast-region" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>

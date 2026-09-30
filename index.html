@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="Morrow Market: considered everyday objects, delivered with care.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Morrow Market — Good things, chosen well</title>
+</head>
+<body>
+  <div class="announcement">Complimentary delivery on orders over ₦75,000 <span>Thoughtful goods for everyday living</span></div>
+  <header class="site-header">
+    <a class="brand" href="#shop"><span class="brand-mark">m</span><span>MORROW<small>MARKET</small></span></a>
+    <form class="search-form" id="search-form"><label class="sr-only" for="site-search">Search products</label><span>⌕</span><input id="site-search" placeholder="Search objects, makers, categories"><button aria-label="Search">↗</button></form>
+    <div class="header-actions"><button data-route="account" aria-label="Account">♙ <span>Account</span></button><button data-route="wishlist" aria-label="Saved items">♡ <span>Saved</span><b id="wishlist-count">0</b></button><button data-route="cart" aria-label="Shopping bag">▱ <span>Bag</span><b id="cart-count">0</b></button><button id="install-button" hidden title="Install app" aria-label="Install app">↓</button></div>
+  </header>
+  <nav class="main-nav" aria-label="Main navigation"><button data-route="shop" class="active">Shop all</button><button data-category="Home">Home</button><button data-category="Wear">Wear</button><button data-category="Objects">Objects</button><button data-category="Wellness">Wellness</button><span></span></nav>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer"><a class="brand" href="#shop"><span class="brand-mark">m</span><span>MORROW<small>MARKET</small></span></a><p>Good things, chosen well. Made for the life you live.</p><div><button data-route="shop">Shop</button><button data-route="account">Your account</button></div><small>© <span id="year"></span> Morrow Market · A Local Storage demo store</small></footer>
+  <div id="toast-region" aria-live="polite"></div><div id="modal-root"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
